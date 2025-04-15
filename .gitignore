@@ -1,0 +1,16 @@
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# Terraform working directory
+.terraform/
+
+# Optionally ignore lock file (depends on your use case)
+.terraform.lock.hcl
+
+# Ignore binary files (e.g., large .exe files)
+*.exe
